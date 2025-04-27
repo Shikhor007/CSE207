@@ -51,6 +51,9 @@ int main() {
     
     cout << vec.size() << endl; //number of elements in the vector
     cout << vec.capacity() << endl; // number of element it can hold
+
+    /*front() and back() is used to directly get the values but
+    begin() and end() are usd for iteration*/
     
     cout << "front: " << vec.front() << endl; //first element of the vector
     cout << "back: " << vec.back() << endl; //last element of the vector 
